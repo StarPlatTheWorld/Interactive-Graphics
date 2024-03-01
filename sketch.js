@@ -1,10 +1,3 @@
-let earthTexture;
-let angle = 0;
-
-function preloadEarth(){
-    earthTexture = loadImage('images/earth.png')
-}
-
 function setup() {
     createCanvas(680, 680);
 }
