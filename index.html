@@ -4,11 +4,22 @@
     <title>Welcome to my Sketch!</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+    
   </head>
   <body>
     <main>
       <h1>Welcome</h1>
+      <div id="canvas"></div>
+      <script src="changeShapeColour.js"></script>
+      <script src="moonSpeed.js"></script>
+      <script src="sketch.js"></script>
+      <div id="buttons">
+        <button onclick="changeShapeColour('red', 'drawEarth')">Red</button>
+        <button onclick="changeShapeColour('green', 'drawEarth')">Green</button>
+        <button onclick="changeShapeColour('blue', 'drawEarth')">Reset</button>
+        <button onclick="increaseMoonSpeed()">Increase Speed</button>
+        <button onclick="decreaseMoonSpeed()">Decrease Speed</button>
+      </div>
     </main>
   </body>
 </html>
