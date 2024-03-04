@@ -28,6 +28,7 @@ function drawEarth(){
 
 function draw(){
     background(10);
+    drawRocket();
     drawMoon();
     drawEarth();
     let timeElapsed = millis() - startTime;
