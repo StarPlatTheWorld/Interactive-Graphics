@@ -31,6 +31,7 @@ function draw(){
     drawRocket();
     drawMoon();
     drawEarth();
+    drawStar();
     let timeElapsed = millis() - startTime;
     if (timeElapsed >= durationTime) {
         noLoop();
